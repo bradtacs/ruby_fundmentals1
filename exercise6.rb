@@ -1,5 +1,5 @@
 
-puts "Hello do you want to walk or run?"
+puts "Hello do you want to walk or run or go home?"
 # gets stopps for a an answer
 walkorRun = gets.chomp  # add in chomp to get rid of any white space!
 
@@ -12,4 +12,6 @@ if walkorRun == "walk"
 elsif walkorRun == "run"
    distance + 5
    puts "Your trip will be #{distance} KMs"
+else walkorRun == "Go home"
+  puts "Have a safe trip home!"
 end
